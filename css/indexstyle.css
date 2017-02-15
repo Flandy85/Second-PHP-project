@@ -1,0 +1,216 @@
+/*****************************************
+******************************************
+				HEADER
+******************************************
+*****************************************/
+.banner {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	border-radius: 10px;		
+}
+/* .banner-item1 and .banner-item2 are content in header */
+.banner-item2 {
+ 	align-self: center;
+}
+
+/*****************************************
+******************************************
+				BODY
+******************************************
+*****************************************/
+body {
+	background-image: url('../images/japan.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+}
+.wrapper {
+	display: flex;
+	flex-flow: column;
+	min-height: 100%;
+}
+/* Menu for sorting tasks */
+.list-title {
+	display: flex;
+	flex-direction: column;
+	padding-left: 1em;
+}
+.table-body {
+	padding-left: 1em;
+
+}
+.table-list {
+
+	width: 40%;
+}
+ .table-list > td {
+	border-width: 2px;
+	width: 40%;
+}
+.task-text-field {
+	height: 20px;
+	width: 595px;
+	margin-top: 5px;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+}
+.footer > p {
+	align-self: center;
+	margin-top: 2.5em;
+}
+.add-task-meny {
+	padding-left: 1em;
+}
+/*****************************************
+******************************************
+				BUTTONS
+******************************************
+*****************************************/
+.priority-button {
+	height: 25px;
+	width: 600px;
+}
+.add-task-button {
+	width: 250px;
+	margin-top: 5px;
+	border-radius: 	100px;
+	margin-left: 170px;
+}
+
+/*****************************************
+******************************************
+				COLORS
+******************************************
+*****************************************/
+.banner {
+	/* taken from http://www.colorzilla.com/gradient-editor/ */
+	background: rgb(149,149,149); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+
+}
+/* .banner-item1 and .banner-item2 is content in header */
+.banner-item1, .banner-item2 {
+	color: white;
+}
+.h2-first, .h2-second {
+	color: #808080;
+}
+
+span {
+	color: #FF8C00;
+}
+/* body of table */
+.table-list {
+	/* taken from http://www.colorzilla.com/gradient-editor/ */
+	border-color: #FFFAFA;
+	background: rgb(240,183,161); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(240,183,161,1) 0%, rgba(117,34,1,1) 53%, rgba(140,51,16,1) 55%, rgba(191,110,78,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(240,183,161,1) 0%,rgba(117,34,1,1) 53%,rgba(140,51,16,1) 55%,rgba(191,110,78,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(240,183,161,1) 0%,rgba(117,34,1,1) 53%,rgba(140,51,16,1) 55%,rgba(191,110,78,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+	color: black;
+}
+caption {
+	color: white;
+}
+.list-title {
+	color: white;
+}
+.list-title > p > a{
+	color: white;
+	text-decoration-line: white;
+	text-shadow: 20px black;
+}
+.done {
+	background-color: green;
+}
+.delete {
+	color: #610B21;
+}
+/* a href tag for button done! DO NOT confuse with class .done wich is a message for user. */
+.atag-done {
+	color:  #FF8C00;
+}
+.delete:hover {
+	color: red;
+}
+.atag-done:hover {
+	color: green;
+}
+.add-task-button {
+	/* taken from http://www.colorzilla.com/gradient-editor/ */
+	background: rgb(240,183,161); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(240,183,161,1) 0%, rgba(117,34,1,1) 53%, rgba(140,51,16,1) 55%, rgba(191,110,78,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(240,183,161,1) 0%,rgba(117,34,1,1) 53%,rgba(140,51,16,1) 55%,rgba(191,110,78,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(240,183,161,1) 0%,rgba(117,34,1,1) 53%,rgba(140,51,16,1) 55%,rgba(191,110,78,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+}
+/* For footer content <span> tag */
+.p-tag-name {
+	color: #808080;
+}
+.footer > p {
+	color: white;
+}
+/*****************************************
+******************************************
+			FONTS/SIZES/FAMILYS ETC
+******************************************
+*****************************************/
+/* .banner-item1 and .banner-item2 is content in header */
+.banner-item1 {
+	font-family: 'Acme', sans-serif;
+}
+.banner-item2 {
+	font-family: 'Acme', sans-serif;
+}
+.table-list {
+	font-family: 'Acme', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.list-title {
+	font-family: 'Acme', sans-serif;
+	font-size: 20px;
+}
+/* Headning title for todo list  on table*/
+caption {
+	font-family: 'Acme', sans-serif;
+	font-size: 30px;
+}
+/* Center text in table cells */
+td {
+	text-align: center;
+}
+.add-task-button {
+	font-size: 35px;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+}
+.delete {
+	text-decoration: none;
+}
+/* a href tag for button done! DO NOT confuse with class .done wich is a message for user. */
+.atag-done {
+	text-decoration: none;
+}
+/* For footer content */
+.footer > p {
+	font-family: 'Acme', sans-serif;
+	font-size: 1.5em;
+}
+
+
+
+
+
+

@@ -1,0 +1,150 @@
+/********************************************************
+*********************************************************
+				IPAD
+*********************************************************
+********************************************************/
+
+@media all and (max-width: 700px) {
+
+	body {
+		display: flex;
+		flex-direction: column;
+
+	}
+	.list-title {
+		display: flex;
+		flex-direction: column;
+		padding-left: 0;
+		width:100%;
+	}
+	.table-body {
+		padding-left: 0;
+		width: 100%;
+
+	}
+	.table-list {
+		width: 100%;
+	}
+	 .table-list > td {
+		border-width: 2px;
+		width: 100%;
+	}
+	.task-text-field {
+		height: 20px;
+		width: 250px;
+		margin-top: 5px;
+		padding: 0;
+	}
+	.priority-button {
+		height: 25px;
+		width: 250px;
+		margin: 0;
+		padding: 0;
+	}
+	.add-task-button {
+		width: 250px;
+		margin-top: 5px;
+		border-radius: 100px;
+		margin: 0;
+		padding: 0;
+	}
+	
+}
+/*********************************************
+**********************************************
+			GALAXY 5S
+**********************************************
+*********************************************/
+@media all and (max-width: 500px) {
+
+	body {
+		display: flex;
+		flex-direction: column;
+	}
+	.list-title {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	}
+
+	.table-body {
+	padding-left: 0;
+	width: 270px;
+	}
+
+	.table-list {
+		width: 270px;
+	}
+
+	.task-text-field {
+		height: 20px;
+		width: 250px;
+		margin-top: 5px;
+		padding: 0;
+	}
+
+	.priority-button {
+		height: 25px;
+		width: 250px;
+		margin: 0;
+		padding: 0;
+	}
+	.add-task-button {
+		width: 250px;
+		margin-top: 5px;
+		border-radius: 100px;
+		margin: 0;
+		padding: 0;
+	}
+	
+}
+/*****************************************
+******************************************
+			IPHONE 5S
+******************************************
+*****************************************/
+@media all and (max-width: 320px) {
+
+	body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.list-title {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	}
+
+	.table-body {
+	padding-left: 0;
+	width: 270px;
+	}
+
+	.table-list {
+		width: 270px;
+	}
+
+	.task-text-field {
+		height: 20px;
+		width: 250px;
+		margin-top: 5px;
+		padding: 0;
+	}
+
+	.priority-button {
+		height: 25px;
+		width: 250px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.add-task-button {
+		width: 250px;
+		margin-top: 5px;
+		border-radius: 100px;
+		margin: 0;
+		padding: 0;
+	}
+	
+}
